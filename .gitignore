@@ -1,0 +1,66 @@
+# -------------------
+# Python
+# -------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+dist/
+build/
+.eggs/
+.Python
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoint
+
+# -------------------
+# Node / Frontend (if React or JS code exists)
+# -------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.vscode/
+
+# -------------------
+# Supabase / Ollama / Local configs
+# -------------------
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Supabase
+.supabase/
+
+# Ollama models / cache
+.ollama/
+*.bin
+*.gguf
+
+# -------------------
+# OS / Editor junk
+# -------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
+.idea/
+.vscode/
+*.log
