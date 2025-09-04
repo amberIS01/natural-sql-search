@@ -8,23 +8,6 @@ This project demonstrates **two powerful ways** of searching data:
 
 ---
 
-## 🏗️ Project Flow
-
-```mermaid
-flowchart TD
-    A[User Query] --> B{Mode Selected}
-    B -->|Semantic Search| C[Parse Query (extract filters like price)]
-    C --> D[Supabase Vector Search]
-    D --> E[Return Products]
-
-    B -->|Structured DB Search| F[Send Query to LLM (Ollama)]
-    F --> G[Generate SQL from NL]
-    G --> H[SQL Validator]
-    H --> I[Run SQL on Supabase]
-    I --> J[Return Table Results]
-```
-
----
 
 ## 📂 Project Structure
 
